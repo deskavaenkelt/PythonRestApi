@@ -1,0 +1,30 @@
+_id: req_wrk_572d180380b542e9b4dfda6cbb9c9134a9737673
+type: Request
+parentId: wrk_572d180380b542e9b4dfda6cbb9c9134
+modified: 1611489566973
+created: 1611488919184
+url: "{{ base_url }}/multiply"
+name: Returns the multiplication of 2 numbers
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"x": 10,
+    	"y": 5
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f9fdc0fc00714d049c9845bfc1c01cd4
+authentication: {}
+metaSortKey: -1611486047652.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
