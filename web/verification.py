@@ -5,7 +5,8 @@ def add_or_sub_or_multi(function_name: str) -> bool:
 
 
 def any_variable_is_missing(posted_data) -> bool:
-    return "x" not in posted_data or "y" not in posted_data
+    return "x" not in posted_data \
+           or "y" not in posted_data
 
 
 def division(function_name: str) -> bool:
